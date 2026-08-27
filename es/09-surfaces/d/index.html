@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Superficies góticas — Geometría para Arquitectos</title>
+<script>(function(){try{var t=localStorage.getItem('gpa-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../../../assets/css/base.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="../../index.html">
+      <svg class="site-mark" viewBox="0 0 68 48" width="31" height="22" aria-hidden="true">
+        <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="44" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+        <path d="M16,31 C17.3,29.8 21,26.3 24,24 C27,21.7 30.7,17 34,17 C37.3,17 41,21.7 44,24 C47,26.3 50.7,29.8 52,31" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <line x1="24" y1="24" x2="44" y2="24" stroke="currentColor" stroke-width="1.5"/>
+        <line x1="34" y1="6.68" x2="34" y2="41.32" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="34" cy="24" r="1.5" fill="currentColor"/>
+      </svg>
+      <span>Geometría para Arquitectos</span>
+    </a>
+    <div class="site-header__right">
+      <nav class="site-header__nav">
+        <a href="../../index.html">Curso</a>
+        <a href="../../a-propos.html">Acerca de</a>
+      </nav>
+      <details class="lang-switch">
+        <summary class="lang-switch__current">ES</summary>
+        <div class="lang-switch__menu">
+          <a class="lang-switch__option" href="../../../09-surfaces/d/index.html">FR</a>
+          <span class="lang-switch__option is-active">ES</span>
+          <a class="lang-switch__option" href="../../../en/09-surfaces/d/index.html">EN</a>
+        </div>
+      </details>
+      <button type="button" class="theme-toggle" data-theme-toggle>◐</button>
+    </div>
+  </div>
+</header>
+
+<div class="page-body">
+<nav class="rail" aria-label="Sumario del curso">
+  <a class="rail__item" href="../../00-introduction/index.html"><span class="rail__num">00</span><span class="rail__label">Introducción</span></a>
+  <a class="rail__item" href="../../01-proposition-inaugurale/index.html"><span class="rail__num">01</span><span class="rail__label">Proposición inaugural</span></a>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">02</span><span class="rail__label">Operaciones elementales<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../02-operations-elementaires/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Operaciones elementales</span></a>
+      <a class="rail__docitem" href="../../02-operations-elementaires/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Ángulo central y potencia de un punto respecto a una circunferencia</span></a>
+      <a class="rail__docitem" href="../../02-operations-elementaires/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Inversión y regreso a los modelos de geometría hiperbólica</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">03</span><span class="rail__label">Figuras no construibles<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../03-figures-non-constructibles/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Cuadratura y trisección</span></a>
+      <a class="rail__docitem" href="../../03-figures-non-constructibles/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Duplicación del cubo</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">04</span><span class="rail__label">Simetría<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../04-symetrie/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Topología en CAD</span></a>
+      <a class="rail__docitem" href="../../04-symetrie/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Simetría moderna en el plano</span></a>
+      <a class="rail__docitem" href="../../04-symetrie/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Simetría moderna en el espacio</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">05</span><span class="rail__label">Medias y DEMR<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../05-moyennes-demr/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Las 3 medias</span></a>
+      <a class="rail__docitem" href="../../05-moyennes-demr/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">DEMR y pentágono</span></a>
+    </div>
+  </details>
+  <a class="rail__item" href="../../06-polyedres-reguliers/index.html"><span class="rail__num">06</span><span class="rail__label">Poliedros regulares</span></a>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">07</span><span class="rail__label">Curvas planas<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../07-courbes-planes/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Epicíclicas</span></a>
+      <a class="rail__docitem" href="../../07-courbes-planes/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Astronomía</span></a>
+      <a class="rail__docitem" href="../../07-courbes-planes/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Elipse</span></a>
+      <a class="rail__docitem" href="../../07-courbes-planes/d/index.html"><span class="rail__docid">d</span><span class="rail__doctitle">Cónicas en el plano</span></a>
+      <a class="rail__docitem" href="../../07-courbes-planes/e/index.html"><span class="rail__docid">e</span><span class="rail__doctitle">Cónicas en el espacio</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">08</span><span class="rail__label">Curvas espaciales<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../08-courbes-spatiales/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Concatenación de arcos</span></a>
+      <a class="rail__docitem" href="../../08-courbes-spatiales/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Singularidades de una curva espacial</span></a>
+    </div>
+  </details>
+  <details class="rail__theme" open>
+    <summary class="rail__item is-active"><span class="rail__num">09</span><span class="rail__label">Superficies<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../09-surfaces/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Superficies de curvatura variable</span></a>
+      <a class="rail__docitem" href="../../09-surfaces/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Superficies canónicas de curvatura constante</span></a>
+      <a class="rail__docitem" href="../../09-surfaces/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Curvatura y desarrollabilidad</span></a>
+      <a class="rail__docitem is-active" href="../../09-surfaces/d/index.html"><span class="rail__docid">d</span><span class="rail__doctitle">Superficies góticas</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">10</span><span class="rail__label">Proyecciones<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="../../10-projections/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Introducción a las proyecciones</span></a>
+      <a class="rail__docitem" href="../../10-projections/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Panorama histórico — Antigüedad y Renacimiento</span></a>
+      <a class="rail__docitem" href="../../10-projections/f/index.html"><span class="rail__docid">f</span><span class="rail__doctitle">Síntesis proyectiva</span></a>
+    </div>
+  </details>
+</nav>
+
+<main class="page-main">
+<section class="hero">
+  <span class="eyebrow">09 — Superficies d</span>
+  <h1>Superficies góticas</h1>
+  <p class="lede">Este documento aún no se ha convertido para la versión web del curso.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>Geometría para Arquitectos — curso de Bernard Cache, EPFL (laboratorio CNPA)</span>
+  </div>
+</footer>
+
+</main>
+</div>
+
+<script src="../../../assets/js/theme.js"></script>
+<script src="../../../assets/js/lang-switch.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acerca de — Geometría para Arquitectos</title>
+<script>(function(){try{var t=localStorage.getItem('gpa-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../assets/css/base.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="index.html">
+      <!-- Ancien emblème (Euclide, Livre IV — triangle inscrit dans un cercle),
+           conservé mais plus utilisé — voir CLAUDE.md :
+      <svg class="site-mark" viewBox="0 0 40 40" width="22" height="22" aria-hidden="true">
+        <circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <polygon points="20,4 33.86,28 6.14,28" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <circle cx="20" cy="20" r="1.4" fill="currentColor"/>
+      </svg>
+      -->
+      <svg class="site-mark" viewBox="0 0 68 48" width="31" height="22" aria-hidden="true">
+        <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="44" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+        <path d="M16,31 C17.3,29.8 21,26.3 24,24 C27,21.7 30.7,17 34,17 C37.3,17 41,21.7 44,24 C47,26.3 50.7,29.8 52,31" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <line x1="24" y1="24" x2="44" y2="24" stroke="currentColor" stroke-width="1.5"/>
+        <line x1="34" y1="6.68" x2="34" y2="41.32" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="34" cy="24" r="1.5" fill="currentColor"/>
+      </svg>
+      <span>Geometría para Arquitectos</span>
+    </a>
+    <div class="site-header__right">
+      <nav class="site-header__nav">
+        <a href="index.html">Curso</a>
+        <a href="a-propos.html">Acerca de</a>
+      </nav>
+      <details class="lang-switch">
+        <summary class="lang-switch__current">ES</summary>
+        <div class="lang-switch__menu">
+          <a class="lang-switch__option" href="../a-propos.html">FR</a>
+          <span class="lang-switch__option is-active">ES</span>
+          <a class="lang-switch__option" href="../en/a-propos.html">EN</a>
+        </div>
+      </details>
+      <button type="button" class="theme-toggle" data-theme-toggle>◐</button>
+    </div>
+  </div>
+</header>
+
+<div class="page-body">
+<nav class="rail" aria-label="Sumario del curso">
+  <a class="rail__item" href="00-introduction/index.html"><span class="rail__num">00</span><span class="rail__label">Introducción</span></a>
+  <a class="rail__item" href="01-proposition-inaugurale/index.html"><span class="rail__num">01</span><span class="rail__label">Proposición inaugural</span></a>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">02</span><span class="rail__label">Operaciones elementales<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="02-operations-elementaires/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Operaciones elementales</span></a>
+      <a class="rail__docitem" href="02-operations-elementaires/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Ángulo central y potencia de un punto respecto a una circunferencia</span></a>
+      <a class="rail__docitem" href="02-operations-elementaires/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Inversión y regreso a los modelos de geometría hiperbólica</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">03</span><span class="rail__label">Figuras no construibles<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="03-figures-non-constructibles/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Cuadratura y trisección</span></a>
+      <a class="rail__docitem" href="03-figures-non-constructibles/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Duplicación del cubo</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">04</span><span class="rail__label">Simetría<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="04-symetrie/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Topología en CAD</span></a>
+      <a class="rail__docitem" href="04-symetrie/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Simetría moderna en el plano</span></a>
+      <a class="rail__docitem" href="04-symetrie/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Simetría moderna en el espacio</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">05</span><span class="rail__label">Medias y DEMR<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="05-moyennes-demr/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Las 3 medias</span></a>
+      <a class="rail__docitem" href="05-moyennes-demr/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">DEMR y pentágono</span></a>
+    </div>
+  </details>
+  <a class="rail__item" href="06-polyedres-reguliers/index.html"><span class="rail__num">06</span><span class="rail__label">Poliedros regulares</span></a>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">07</span><span class="rail__label">Curvas planas<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="07-courbes-planes/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Epicíclicas</span></a>
+      <a class="rail__docitem" href="07-courbes-planes/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Astronomía</span></a>
+      <a class="rail__docitem" href="07-courbes-planes/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Elipse</span></a>
+      <a class="rail__docitem" href="07-courbes-planes/d/index.html"><span class="rail__docid">d</span><span class="rail__doctitle">Cónicas en el plano</span></a>
+      <a class="rail__docitem" href="07-courbes-planes/e/index.html"><span class="rail__docid">e</span><span class="rail__doctitle">Cónicas en el espacio</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">08</span><span class="rail__label">Curvas espaciales<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="08-courbes-spatiales/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Concatenación de arcos</span></a>
+      <a class="rail__docitem" href="08-courbes-spatiales/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Singularidades de una curva espacial</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">09</span><span class="rail__label">Superficies<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="09-surfaces/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Superficies de curvatura variable</span></a>
+      <a class="rail__docitem" href="09-surfaces/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Superficies canónicas de curvatura constante</span></a>
+      <a class="rail__docitem" href="09-surfaces/c/index.html"><span class="rail__docid">c</span><span class="rail__doctitle">Curvatura y desarrollabilidad</span></a>
+      <a class="rail__docitem" href="09-surfaces/d/index.html"><span class="rail__docid">d</span><span class="rail__doctitle">Superficies góticas</span></a>
+    </div>
+  </details>
+  <details class="rail__theme">
+    <summary class="rail__item"><span class="rail__num">10</span><span class="rail__label">Proyecciones<span class="rail__chevron" aria-hidden="true">▸</span></span></summary>
+    <div class="rail__doclist">
+      <a class="rail__docitem" href="10-projections/a/index.html"><span class="rail__docid">a</span><span class="rail__doctitle">Introducción a las proyecciones</span></a>
+      <a class="rail__docitem" href="10-projections/b/index.html"><span class="rail__docid">b</span><span class="rail__doctitle">Panorama histórico — Antigüedad y Renacimiento</span></a>
+      <a class="rail__docitem" href="10-projections/f/index.html"><span class="rail__docid">f</span><span class="rail__doctitle">Síntesis proyectiva</span></a>
+    </div>
+  </details>
+</nav>
+
+<main class="page-main">
+<section class="page-hero">
+  <span class="eyebrow">Acerca de</span>
+  <h1>El curso, el laboratorio, y Bernard Cache</h1>
+</section>
+
+<div class="page">
+  <section class="about-section">
+    <h2>Bernard Cache</h2>
+    <p>
+      Bernard Cache (n. 1958) es arquitecto y teórico. Graduado en arquitectura por la EPFL
+      (1983), continuó su formación en gestión en la ESSEC y después en filosofía, bajo la
+      dirección de <strong>Gilles Deleuze</strong>. Su primer libro, <strong><em>Earth Moves</em></strong> (redactado en 1983,
+      publicado en 1995), introduce la noción de <strong>«&nbsp;arquitectura no estándar&nbsp;»</strong> — un
+      concepto que Deleuze retomaría bajo el nombre de <em>objectile</em> en <em>El pliegue</em>
+      (<em>Le Pli</em>, 1988).
+    </p>
+    <p>
+      En 1996, junto con Patrick Beaucé, funda <strong>Objectile</strong>, uno de los primeros
+      talleres en diseñar y fabricar componentes de arquitectura «&nbsp;no estándar&nbsp;» —
+      paneles y tabiques de madera de formas curvas continuas, diseñados por ordenador y
+      mecanizados por control numérico.
+    </p>
+
+    <p class="pull">
+      Releer la geometría clásica con las herramientas del cálculo paramétrico.
+    </p>
+
+    <p>
+      Su trabajo teórico más reciente relee tratados clásicos — el <em>De Architectura</em> de
+      Vitruvio, el <em>Underweysung der Messung</em> de Durero — con ayuda de software
+      paramétrico, para reformalizar con las herramientas de hoy el razonamiento geométrico de
+      esos autores. Es este mismo gesto el que está en el centro del curso «&nbsp;Geometría
+      para Arquitectos&nbsp;» y de este sitio.
+    </p>
+    <p>
+      Profesor asociado en la EPFL de 2013 a 2023, allí fundó y dirigió el laboratorio <strong>CNPA</strong>.
+      Desde su jubilación el 31 de julio de 2023, es profesor honorario en el ENAC.
+    </p>
+  </section>
+
+  <section class="about-section">
+    <h2>Culturas Digitales del Proyecto Arquitectónico</h2>
+    <p>
+      El <strong>CNPA</strong> (<em>Laboratoire des Cultures Num&eacute;riques du Projet
+      Architectural</em>) persigue dos misiones: trasladar a la arquitectura métodos de diseño
+      y fabricación propios de la industria, e inscribir esa traslación en la tradición de la
+      cultura arquitectónica. <br>
+      <strong>Su enseñanza se articula en torno a tres ejes:</strong> la <strong>geometría</strong>
+      de primer año — repensada como herramienta de comprensión y diseño, más que de simple
+      representación —, el <strong>BIM</strong> y la <strong>estereotomía</strong> moderna, con
+      herramientas de CAD/CAM que permiten el desarrollo de componentes «&nbsp;no
+      estándar&nbsp;» mediante metodologías digitales asociativas y paramétricas.
+    </p>
+    <p>
+      Varios miembros del laboratorio han colaborado, a lo largo de los años, en la enseñanza de
+      la geometría&nbsp;:
+    </p>
+    <ul class="people-list">
+      <li>Stéphane Le Corre</li>
+      <li>Marie-Pierre Zufferey</li>
+      <li>Sébastian Duque Mahecha</li>
+      <li>Roumpini Makridou</li>
+      <li>Christophe Berther</li>
+      <li>Ignacio Ferrer Pérez-Blanco</li>
+      <li>Ahmed Wael</li>
+      <li>Raphaël Vouilloz</li>
+    </ul>
+    <p>
+      Tras la jubilación de Bernard en 2023, el curso lo asumió hasta 2026 Ahmed Wael, con un
+      equipo reducido formado por Stéphane Le Corre, Ignacio Ferrer Pérez-Blanco y Raphaël
+      Vouilloz.
+    </p>
+  </section>
+
+  <section class="about-section">
+    <h2>Acerca de este sitio</h2>
+    <p>
+      Esta versión web, puesta en marcha por Ignacio Ferrer Pérez-Blanco, recoge los
+      documentos del curso de Bernard Cache. Algunos pasajes pensados exclusivamente para el
+      desarrollo de las sesiones presenciales (ejercicios, manipulaciones, apertura de
+      archivos) están adaptados para una lectura autónoma.
+    </p>
+    <p>
+      Un visualizador 3D de los modelos geométricos asociados — construidos con el software
+      TopSolid y publicados mediante
+      Speckle —
+      está en desarrollo por separado, a cargo de Raphaël Vouilloz y Ahmed Wael, y con el
+      tiempo podría sustituir algunas imágenes estáticas por vistas interactivas.
+    </p>
+  </section>
+</div>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>Geometría para Arquitectos — curso de Bernard Cache, EPFL (laboratorio CNPA)</span>
+  </div>
+</footer>
+
+</main>
+</div>
+
+<script src="../assets/js/theme.js"></script>
+<script src="../assets/js/lang-switch.js"></script>
+</body>
+</html>
