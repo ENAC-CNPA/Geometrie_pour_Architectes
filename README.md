@@ -1,6 +1,6 @@
 # Geometry for Architects — version web
 
-Version web statique des documents de cours du cours **« Geometry for Architects »** de **Bernard Cache** (EPFL, laboratoire CNPA), avec la collaboration du MHA de l'ENSAG.
+Version web statique des documents de cours du cours **« Geometry for Architects »** de **Bernard Cache** (EPFL, laboratoire CNPA).
 
 Le cours réunit 11 thèmes (00–10) et ~27 documents. Chaque document est converti à partir de l'export HTML original de Google Docs, en conservant la couleur et le gras avec lesquels Bernard annote ses figures — ce n'est pas de la décoration, cela fait partie de la notation. Le site est trilingue : français (langue d'origine des documents), anglais et espagnol.
 
